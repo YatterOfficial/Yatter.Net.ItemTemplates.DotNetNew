@@ -1,0 +1,12 @@
+{
+  "DataType": "Yatter.UI.ListBuilder.Serialization.Models.Yatter",
+  "YatterSpaces": {
+    "y@": "Yatter.UI.ListBuilder.ListItems",
+    "a@": "Yatter.UI.ListBuilder.Serialization.Models"
+  },
+  "ServiceDictionary": {
+  },
+  "Items": [
+  ]
+}
+

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>Anthony Harrison</Authors>
+    <Copyright>Anthony Harrison</Copyright>
+    <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Anthony Harrison</Owners>
+    <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.Dotnet.New.Templates</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReleaseNotes>Alpha Release.</PackageReleaseNotes>
+    <Summary>Templates for the automation of Yatter Content-Creation</Summary>
+    <PackageTags>dotnet-new;templates;yatter</PackageTags>
+    <Title>Yatter Dotnet-New Templates</Title>
+    <Description>Templates for the automation of Yatter Content-Creation</Description>
+    <PackageId>Yatter.Dotnet.New.Templates</PackageId>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

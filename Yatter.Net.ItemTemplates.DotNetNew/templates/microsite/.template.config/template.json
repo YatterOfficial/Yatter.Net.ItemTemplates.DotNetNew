@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Anthony Harrison",
+  "classifications": [ "Common", "Code", "Yatter", "Yatter Object Notation", "YON" ],
+  "identity": "Yatter.Microsite",
+  "name": "Yatter Default Microsite",
+  "shortName": "yatter-microsite",
+  "description": "A default Yatter Microsite consisting of index, about, and contact, .yatr pages, using Yatter Object Notation (YON)",
+  "tags": {
+    "language": "YON",
+    "type": "item"
+  },  
+  "symbols":{
+    "Username": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames yatter username",
+      "defaultValue": "My Username",
+      "replaces":"MyUsername"
+    },
+    "YouTubeVideoWatchUrl": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames YouYube video's 'Watch Url'",
+      "defaultValue": "e-ORhEE9VVg",
+      "replaces":"H1_OpWiyijU"
+    },
+    "Slogan": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames Index page slogan",
+      "defaultValue": "We host, you boast!",
+      "replaces":"At y@R, we host, you boast!"
+    },
+    "MissionStatement": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames brief Mission Statement",
+      "defaultValue": "In for a win!",
+      "replaces":"Please contact us to create Custom Yatter Microsites for your customer's delight!"
+    },
+    "CopyrightNotice": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames brief Copyright notice",
+      "defaultValue": "Copyright (C) MMXXI",
+      "replaces":"Copyright (C) 2021"
+    },
+    "AboutUsStatement": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames brief About Us statement",
+      "defaultValue": "We do stuff!!!",
+      "replaces":"We create Custom Yatter Microsites for your user's delight!"
+    },
+    "ContactName": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames contact's Name",
+      "defaultValue": "Mr John Doe",
+      "replaces":"John Doe"
+    },
+    "ContactEmail": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames contact's email address",
+      "defaultValue": "john.doe@doe.com",
+      "replaces":"john@doe.com"
+    },
+    "ContactPhone": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames contact's phone number",
+      "defaultValue": "++44123456789",
+      "replaces":"+44123456789"
+    },
+    "IsAsync": {
+      "type": "parameter",
+      "dataType":"bool",
+      "description": "Configures TA ActAsync or Act alternatives",
+      "defaultValue": "true",
+    }
+  } 
+}
+

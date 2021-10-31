@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Anthony Harrison",
+  "classifications": [ "Common", "Code", "Yatter", "Invigoration", "TResponse" ],
+  "identity": "Yatter.Invigoration.TResponse",
+  "name": "Yatter TResponse file",
+  "shortName": "yatter-tresponse",
+  "description": "A default C# TResponse file using Yatter's Invigoration Pattern",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sourceName": "InvigorationTResponses.TResponse",
+  "preferNameDirectory":true,
+  "symbols":{
+    "FileName": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames tresponse file name",
+      "FileRename": "TResponseClass",
+      "defaultValue": "TResponseClass"
+      },
+    "TRClassName": {
+      "type": "parameter",
+      "isRequired": true,
+      "datatype": "string",
+      "description": "Renames TR class name",
+      "defaultValue": "TRClassName",
+      "replaces":"TRClass"
+    }
+  }
+}
+
+
