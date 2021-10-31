@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>0.0.2</PackageVersion>
     <Authors>Anthony Harrison</Authors>
     <Copyright>Anthony Harrison</Copyright>
     <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
@@ -11,14 +11,14 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>Anthony Harrison</Owners>
-    <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.Dotnet.New.Templates</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.Net.ItemTemplates.DotNetNew</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReleaseNotes>Alpha Release.</PackageReleaseNotes>
     <Summary>Templates for the automation of Yatter Content-Creation</Summary>
     <PackageTags>dotnet-new;templates;yatter</PackageTags>
     <Title>Yatter Dotnet-New Templates</Title>
     <Description>Templates for the automation of Yatter Content-Creation</Description>
-    <PackageId>Yatter.Dotnet.New.Templates</PackageId>
+    <PackageId>Yatter.Net.ItemTemplates.DotNetNew</PackageId>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
