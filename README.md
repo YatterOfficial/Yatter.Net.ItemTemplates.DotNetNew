@@ -1,3 +1,11 @@
+## Alpha Alert!
+
+It's a winding road to Camelot so please read the [YatterOfficial](https://github.com/yatterofficial) Overview and Raison d'être.
+
+y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
+
+Copyright © 2021
+
 # Yatter.Net.ItemTemplates.DotNetNew
 
 <a href="https://www.nuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/" target="_blank" rel="noreferrer noopener"><img alt="Nuget" src="https://img.shields.io/nuget/v/Yatter.Net.ItemTemplates.DotNetNew?color=blue&style=for-the-badge"></a>
