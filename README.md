@@ -1,5 +1,21 @@
 # Yatter.Net.ItemTemplates.DotNetNew
 
+## Installation
+
+```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
+
+## Update
+
+- ```dotnet new --update-check```
+
+- ```dotnet new --update-apply```
+
+## Uninstall
+
+```dotnet new --uninstall Yatter.Net.ItemTemplates.DotNetNew```
+
+## Overview
+
 ```dotnet new <name>``` templates for Yatter content creation, as follows:
 
 ```
