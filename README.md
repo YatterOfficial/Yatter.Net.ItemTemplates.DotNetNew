@@ -75,10 +75,6 @@ Options:
   -p:Co|--ContactPhone       Renames contact's phone number            
                              string - Required                         
                              Default: ++44123456789                    
-
-  -I|--IsAsync               Configures TA ActAsync or Act alternatives
-                             bool - Optional                           
-                             Default: true  
 ```
 
 ## Update
