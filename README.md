@@ -10,7 +10,7 @@
 
 - ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
 
-or by version number:
+or by version number, e.g:
 
 - ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.2 ```
 
