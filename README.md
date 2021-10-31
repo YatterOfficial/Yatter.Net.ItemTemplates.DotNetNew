@@ -14,6 +14,65 @@ or by version number, e.g:
 
 - ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.2 ```
 
+## Usage
+
+List them by looking for ```yatter-```[name] in the results:
+
+- ```dotnet new --list```
+
+and for each of them add ```-h``` to the end to discover the syntax, e.g:
+
+- ```dotnet new yatter-microsite -h```
+
+which gives the following example output:_
+
+```
+username% dotnet new yatter-microsite -h
+Yatter Default Microsite (YON)
+Author: Anthony Harrison
+Description: A default Yatter Microsite consisting of index, about, and contact, .yatr pages, using Yatter Object Notation (YON)
+Options:                                                               
+  -U|--Username              Renames yatter username                   
+                             string - Required                         
+                             Default: My Username                      
+
+  -Y|--YouTubeVideoWatchUrl  Renames YouYube video's 'Watch Url'       
+                             string - Required                         
+                             Default: e-ORhEE9VVg                      
+
+  -S|--Slogan                Renames Index page slogan                 
+                             string - Required                         
+                             Default: We host, you boast!              
+
+  -M|--MissionStatement      Renames brief Mission Statement           
+                             string - Required                         
+                             Default: In for a win!                    
+
+  -C|--CopyrightNotice       Renames brief Copyright notice            
+                             string - Required                         
+                             Default: Copyright (C) MMXXI              
+
+  -A|--AboutUsStatement      Renames brief About Us statement          
+                             string - Required                         
+                             Default: We do stuff!!!                   
+
+  -Co|--ContactName          Renames contact's Name                    
+                             string - Required                         
+                             Default: Mr John Doe                      
+
+  -p:C|--ContactEmail        Renames contact's email address           
+                             string - Required                         
+                             Default: john.doe@doe.com                 
+
+  -p:Co|--ContactPhone       Renames contact's phone number            
+                             string - Required                         
+                             Default: ++44123456789                    
+
+  -I|--IsAsync               Configures TA ActAsync or Act alternatives
+                             bool - Optional                           
+                             Default: true  
+```
+
 ## Update
 
 - ```dotnet new --update-check```
