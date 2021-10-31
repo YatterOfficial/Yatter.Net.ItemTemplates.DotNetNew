@@ -111,3 +111,7 @@ Yatter TResponse file                         yatter-tresponse         [C#]     
 - **Yatter TActor file** creates a single TActor C# file for Yatter's ```Invigoration Pattern```
 - **Yatter TActor file** creates a single TObject C# file for Yatter's ```Invigoration Pattern```
 - **Yatter TActor file** creates a single TResponse C# file for Yatter's ```Invigoration Pattern```
+
+y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
+
+Copyright © 2021
