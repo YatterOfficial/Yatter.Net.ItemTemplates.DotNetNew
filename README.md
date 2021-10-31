@@ -1,5 +1,11 @@
 # Yatter.Net.ItemTemplates.DotNetNew
 
+<a href="https://www.nuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/" target="_blank" rel="noreferrer noopener"><img alt="Nuget" src="https://img.shields.io/nuget/v/Yatter.Net.ItemTemplates.DotNetNew?color=blue&style=for-the-badge"></a>
+
+![GitHub](https://img.shields.io/github/license/yatterofficial/Yatter.Net.ItemTemplates.DotNetNew?style=for-the-badge)
+
+[![Yatter.UI.ListBuilder on fuget.org](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/badge.svg)](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew)
+
 ## Installation
 
 - ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
