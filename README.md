@@ -12,7 +12,7 @@ Copyright © 2021
 
 ![GitHub](https://img.shields.io/github/license/yatterofficial/Yatter.Net.ItemTemplates.DotNetNew?style=for-the-badge)
 
-[![Yatter.UI.ListBuilder on fuget.org](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/badge.svg)](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew)
+[![Yatter.Net.ItemTemplates.DotNetNew on fuget.org](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/badge.svg)](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew)
 
 ## Installation
 
