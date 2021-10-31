@@ -2,7 +2,11 @@
 
 ## Installation
 
-```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
+- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
+
+or by version number:
+
+- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.2 ```
 
 ## Update
 
@@ -12,7 +16,11 @@
 
 ## Uninstall
 
-```dotnet new --uninstall Yatter.Net.ItemTemplates.DotNetNew```
+- ```dotnet new --uninstall Yatter.Net.ItemTemplates.DotNetNew```
+
+or by seeking the command by running
+
+- ```dotnet new --uninstall``` and following the prompts
 
 ## Overview
 
