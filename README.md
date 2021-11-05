@@ -104,7 +104,7 @@ Yatter TObject file                           yatter-tobject           [C#]     
 Yatter TResponse file                         yatter-tresponse         [C#]        Web  
 ```
 
-_Why have we identified them as C#, and not YON?_
+_Why have we identified yatter-microsite and yatter-yatterpage-empty as C#, and not YON?_
 
 Although the .yatr pages are YON - Yatter Object Notation, a subset of JSON - we are listing them as C# because of the C# tools that we are building around them.
 
