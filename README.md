@@ -50,7 +50,7 @@ For example, although going ```dotnet new yatter-microsite``` will yield three y
 
 or by version number, e.g:
 
-- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.4```
+- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.5```
 
 ## Usage
 
