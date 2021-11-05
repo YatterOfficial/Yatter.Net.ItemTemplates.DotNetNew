@@ -1,7 +1,1 @@
-﻿Place SDL2 directory with SDL2 headers, in this directory.
-
-include // this directory
--   SDL2
-    -   SDL2<*>.h // headers, etc
-
-See ../ReadMe.md for full instructions
+The direrctories that are downhill of here should be symlinks to the SDL installation folders.

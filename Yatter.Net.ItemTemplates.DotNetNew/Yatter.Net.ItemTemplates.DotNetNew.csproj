@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageVersion>0.0.4</PackageVersion>
+    <PackageVersion>0.0.5</PackageVersion>
     <Authors>Anthony Harrison</Authors>
     <Copyright>Anthony Harrison</Copyright>
     <PackageIconUrl>https://avatars.githubusercontent.com/u/92665945</PackageIconUrl>
@@ -13,7 +13,7 @@
     <Owners>Anthony Harrison</Owners>
     <PackageProjectUrl>https://github.com/YatterOfficial/Yatter.Net.ItemTemplates.DotNetNew</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageReleaseNotes>Alpha Release. Added the Yatter SDL2 Template for MacOS.</PackageReleaseNotes>
+    <PackageReleaseNotes>Alpha Release. Modified the SDL2.Wasm.MacOS template.</PackageReleaseNotes>
     <Summary>Templates for the automation of Yatter Content-Creation</Summary>
     <PackageTags>dotnet-new;templates;yatter</PackageTags>
     <Title>Yatter Dotnet-New Templates</Title>
@@ -39,5 +39,7 @@
   <ItemGroup>
     <Folder Include="templates\sdl2mac\include\" />
     <Folder Include="templates\sdl2mac\lib\" />
+    <Folder Include="templates\sdl2mac\build\debug\" />
+    <Folder Include="templates\sdl2mac\src\" />
   </ItemGroup>
 </Project>

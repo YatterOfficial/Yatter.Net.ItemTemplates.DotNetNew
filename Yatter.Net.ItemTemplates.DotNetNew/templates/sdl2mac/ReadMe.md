@@ -2,7 +2,7 @@
 
 ## Introduction
 
-- This solution is a default SDL2 starter project for MacOS that has empty `include` and `lib` directories, but which directories are easily hydrated with SDL2 artefacts by starting with the command `brew install sdl2 --verbose` and following the instructions below.
+- This solution is a default SDL2 starter project for MacOS that has empty `include` and `lib` directories, but which directories are easily symlinked by following the instructions that are below.
 - This solution is made available in the `Yatter.Net.ItemTemplates.DotNetNew` new templates Nuget package to facilitate creating WASM that can be included in `.yatr` files in Base64.
 
 This template is in it's infancy however is going to be developed further along a track where the ultimate object is to convert SDL2 programs into WASM for inclusion in Yatter Pages in a format similar to:
@@ -23,25 +23,20 @@ Although this DataType is not yet included as a ListItem in the public release o
 
 ## SDL2 Quickstart
 
-### Install SDL2 include and lib artefacts into the `include` and `lib` folders in this project, as follows:
+### To Configure
 
-Do the following, so that the empty `include` and `lib` directories in this project, contain all the SDL2 files that it needs:
+See this video:
 
-- Run the following command `brew install sdl2 --verbose` and notice the installation directory, for us it was `/opt/homebrew/Cellar/sdl2/2.0.16`
-  - if you already have it installed, the easiest way of finding the installation directory, is perhaps `brew reinstall sdl2 --verbose`
-- There should be a folder called `SDL2` in the root of `<installation directory>/include`, copy the SDL2 folder and it's contents, into the include directory in this project.
-  - for us this was `/opt/homebrew/Cellar/sdl2/2.0.16/include` so we copied `/opt/homebrew/Cellar/sdl2/2.0.16/include/SDL2` and it's contents, into the `include` directory in this project, so that the paths in this directory look like `include/SDL2/SDL2_<*>.h` and `include/SDL2/<*>.h`.
-- Now look for the `<installation directory>/lib` directory, for us it was `/opt/homebrew/Cellar/sdl2/2.0.16/lib` and copy the contents of that `lib` directory into the `lib` folder in this project.
-  - Once we had done this, the paths in this directory looked like `lib/libSDL2<*>.a`, `lib/libSDL2<*>.dylib`, and a couple of folders.
-- That's it!
+- https://www.youtube.com/watch?v=Dyz9O7s7B8w
+- Please note that in the Makefile, we diverged by appending an additional value to make it work: `LIBRARY_PATHS = -Llib -L/opt/homebrew/lib`
 
 ### To compile
 
-- `make project`
+- `make`
 
 ### To Run
 
-- `./project`
+- `./build/debug/play`
 
 ### Wikis
 
@@ -54,7 +49,12 @@ Do the following, so that the empty `include` and `lib` directories in this proj
 
 These are just random videos that we don't want to lose!
 
+- How to Setup SDL2 and VSCode to Start Programming OpenGL on a Mac: https://www.youtube.com/watch?v=Dyz9O7s7B8w
 - Compile C into Web Assembly: https://www.youtube.com/watch?v=_pHgILVlx3c
 - Drawing To a Canvas With Webassembly (Without Emscripten): https://www.youtube.com/watch?v=9lxnm9a-Yi8
+
+### Credits
+
+We modified our initial 'Hello SDL2' template (which we are progressively building into a SDL2.WASM template) to closely reflect Julio Fausto's SDL2-Starter template at https://github.com/jcfausto/sdl2-starter - which was published under an MIT License - doing so because of his excellent SDL2 on MacOS setup video at [How to Setup SDL2 and VSCode to Start Programming OpenGL on a Mac](https://www.youtube.com/watch?v=Dyz9O7s7B8w).
 
 y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
