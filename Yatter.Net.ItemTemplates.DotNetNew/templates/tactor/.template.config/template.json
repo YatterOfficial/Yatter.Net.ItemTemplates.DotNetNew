@@ -1,53 +1,54 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Anthony Harrison",
-  "classifications": [ "Common", "Code", "Yatter", "Invigoration", "TActor" ],
+  "classifications": [ "Web", "Misc" ],
   "identity": "Yatter.Invigoration.TActor",
   "name": "Yatter TActor file",
   "shortName": "yatter-tactor",
+  "defaultName": "yatter-tactor",
   "description": "A default C# TActor file using Yatter's Invigoration Pattern",
   "tags": {
     "language": "C#",
     "type": "item"
   },
   "sourceName": "InvigorationTActors.TActor",
-  "preferNameDirectory":true,
-  "symbols":{
-    "FileName": {
+  "preferNameDirectory": true,
+  "symbols": {
+    "Filename": {
       "type": "parameter",
       "isRequired": true,
       "datatype": "string",
       "description": "Renames tactor file name",
       "FileRename": "TActorClass",
       "defaultValue": "TActorClass"
-      },
+    },
     "TAClassName": {
       "type": "parameter",
       "isRequired": true,
       "datatype": "string",
       "description": "Renames TA class name",
       "defaultValue": "TAClassName",
-      "replaces":"TAClass"
+      "replaces": "TAClass"
     },
     "TOClassName": {
       "type": "parameter",
       "datatype": "string",
       "description": "Renames TO class name",
       "defaultValue": "TOClassName",
-      "replaces":"TODefault"
+      "replaces": "TODefault"
     },
     "TRClassName": {
       "type": "parameter",
       "datatype": "string",
       "description": "Renames TR class name",
       "defaultValue": "TRClassName",
-      "replaces":"TRNotImplemented"
+      "replaces": "TRNotImplemented"
     },
     "IsAsync": {
       "type": "parameter",
-      "dataType":"bool",
+      "dataType": "bool",
       "description": "Configures TA ActAsync or Act alternatives",
-      "defaultValue": "true",
+      "defaultValue": "true"
     }
-  } 
+  }
 }

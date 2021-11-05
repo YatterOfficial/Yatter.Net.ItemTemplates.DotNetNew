@@ -1,24 +1,25 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Anthony Harrison",
-  "classifications": [ "Common", "Code", "Yatter", "Yatter Object Notation", "YON" ],
+  "classifications": [ "Web", "Misc" ],
   "identity": "Yatter.Page.Empty",
   "name": "Yatter Empty Yatter Page",
   "shortName": "yatter-yatterpage-empty",
+  "defaultName": "yatter-yatterpage-empty",
   "description": "An empty Yatter Page using Yatter Object Notation (YON)",
   "tags": {
-    "language": "YON",
+    "language": "C#",
     "type": "item"
   },
-  "symbols":{
-    "FileName": {
+  "symbols": {
+    "Filename": {
       "type": "parameter",
       "isRequired": false,
       "datatype": "string",
       "description": "Renames yatter page filename",
       "FileRename": "index.yatr",
       "defaultValue": "index.yatr"
-      }
+    }
   }
 }
 

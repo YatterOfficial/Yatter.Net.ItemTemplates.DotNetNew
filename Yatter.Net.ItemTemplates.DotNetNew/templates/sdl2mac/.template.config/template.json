@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Anthony Harrison",
+  "classifications": [ "WASM" ],
+  "identity": "Yatter.SDL2.MacOS",
+  "name": "Yatter SDL2 Template for MacOS",
+  "shortName": "yatter-sdl2-mac",
+  "defaultName": "yatter-sdl2-mac",
+  "description": "A default SDL2 starter project for MacOS with include and lib files having been copied across from an SDL2 installation created using brew install sdl2. Made available in the Yatter.Net.ItemTemplates.DotNetNew new templates Nuget to facilitate creating WASM that can be included in .yatr files in Base64. See the ReadMe for further details.",
+  "tags": {
+    "language": "C++",
+    "type": "project"
+  }
+}
+
