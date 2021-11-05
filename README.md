@@ -14,6 +14,36 @@ Copyright © 2021
 
 [![Yatter.Net.ItemTemplates.DotNetNew on fuget.org](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew/badge.svg)](https://www.fuget.org/packages/Yatter.Net.ItemTemplates.DotNetNew)
 
+## Overview
+
+```dotnet new <name>``` templates for Yatter content creation, as follows:
+
+```
+Yatter Default Microsite                      yatter-microsite         [C#]        Web                                                
+Yatter Empty Yatter Page                      yatter-yatterpage-empty  [C#]        Web/Misc                                           
+Yatter SDL2 Template for MacOS                yatter-sdl2-mac          C++         WASM                                               
+Yatter TActor file                            yatter-tactor            [C#]        Web/Misc                                           
+Yatter TObject file                           yatter-tobject           [C#]        Web                                                
+Yatter TResponse file                         yatter-tresponse         [C#]        Web  
+```
+
+_Why have we identified yatter-microsite and yatter-yatterpage-empty as C#, and not YON?_
+
+Although the .yatr pages are YON - Yatter Object Notation, a subset of JSON - we are listing them as C# because of the C# tools that we are building around them.
+
+For example, although going ```dotnet new yatter-microsite``` will yield three yatter pages, index.yatr, about.yatr, and contact.yatr, they are rendered in a C# project that can be loaded into Visual Studio, where tools can be embedded in the Console App (for example, to pack them for uploading), and the built-in terminal is readily available to run our (and third party's) dotnet tools.
+
+- **Yatter Default Microsite** creates three Yatter Pages, comprising a default Yatter Microsite, as follows:
+  - index.yatr
+  - about.yatr
+  - contact.yatr
+- **Yatter Empty Yatter Page** creates a single, empty, Yatter Page
+- **Yatter SDL2 Template for MacOS** creates an SDL2 C++ template project as a basis of creating y@Wasm items
+- **Yatter TActor file** creates a single TActor C# file for Yatter's ```Invigoration Pattern```
+- **Yatter TActor file** creates a single TObject C# file for Yatter's ```Invigoration Pattern```
+- **Yatter TActor file** creates a single TResponse C# file for Yatter's ```Invigoration Pattern```
+
+
 ## Installation
 
 - ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew```
@@ -90,35 +120,6 @@ Options:
 or by seeking the command by running
 
 - ```dotnet new --uninstall``` and following the prompts
-
-## Overview
-
-```dotnet new <name>``` templates for Yatter content creation, as follows:
-
-```
-Yatter Default Microsite                      yatter-microsite         [C#]        Web                                                
-Yatter Empty Yatter Page                      yatter-yatterpage-empty  [C#]        Web/Misc                                           
-Yatter SDL2 Template for MacOS                yatter-sdl2-mac          C++         WASM                                               
-Yatter TActor file                            yatter-tactor            [C#]        Web/Misc                                           
-Yatter TObject file                           yatter-tobject           [C#]        Web                                                
-Yatter TResponse file                         yatter-tresponse         [C#]        Web  
-```
-
-_Why have we identified yatter-microsite and yatter-yatterpage-empty as C#, and not YON?_
-
-Although the .yatr pages are YON - Yatter Object Notation, a subset of JSON - we are listing them as C# because of the C# tools that we are building around them.
-
-For example, although going ```dotnet new yatter-microsite``` will yield three yatter pages, index.yatr, about.yatr, and contact.yatr, they are rendered in a C# project that can be loaded into Visual Studio, where tools can be embedded in the Console App (for example, to pack them for uploading), and the built-in terminal is readily available to run our (and third party's) dotnet tools.
-
-- **Yatter Default Microsite** creates three Yatter Pages, comprising a default Yatter Microsite, as follows:
-  - index.yatr
-  - about.yatr
-  - contact.yatr
-- **Yatter Empty Yatter Page** creates a single, empty, Yatter Page
-- **Yatter SDL2 Template for MacOS** creates an SDL2 C++ template project as a basis of creating y@Wasm items
-- **Yatter TActor file** creates a single TActor C# file for Yatter's ```Invigoration Pattern```
-- **Yatter TActor file** creates a single TObject C# file for Yatter's ```Invigoration Pattern```
-- **Yatter TActor file** creates a single TResponse C# file for Yatter's ```Invigoration Pattern```
 
 y@R and You-At-A-Resource are trademarks of Count Anthony Harrison, operating from the United Kingdom
 
