@@ -66,45 +66,49 @@ which gives the following example output:_
 
 ```
 username% dotnet new yatter-microsite -h
-Yatter Default Microsite (YON)
+Yatter Default Microsite (C#)
 Author: Anthony Harrison
 Description: A default Yatter Microsite consisting of index, about, and contact, .yatr pages, using Yatter Object Notation (YON)
 Options:                                                               
+  -F|--Filename              Renames YatterMicrosite.csproj file name  
+                             string - Optional                         
+                             Default: YatterMicrosite                  
+
   -U|--Username              Renames yatter username                   
-                             string - Required                         
+                             string - Optional                         
                              Default: My Username                      
 
   -Y|--YouTubeVideoWatchUrl  Renames YouYube video's 'Watch Url'       
-                             string - Required                         
+                             string - Optional                         
                              Default: e-ORhEE9VVg                      
 
   -S|--Slogan                Renames Index page slogan                 
-                             string - Required                         
+                             string - Optional                         
                              Default: We host, you boast!              
 
   -M|--MissionStatement      Renames brief Mission Statement           
-                             string - Required                         
+                             string - Optional                         
                              Default: In for a win!                    
 
   -C|--CopyrightNotice       Renames brief Copyright notice            
-                             string - Required                         
+                             string - Optional                         
                              Default: Copyright (C) MMXXI              
 
   -A|--AboutUsStatement      Renames brief About Us statement          
-                             string - Required                         
+                             string - Optional                         
                              Default: We do stuff!!!                   
 
   -Co|--ContactName          Renames contact's Name                    
-                             string - Required                         
+                             string - Optional                         
                              Default: Mr John Doe                      
 
   -p:C|--ContactEmail        Renames contact's email address           
-                             string - Required                         
+                             string - Optional                         
                              Default: john.doe@doe.com                 
 
   -p:Co|--ContactPhone       Renames contact's phone number            
-                             string - Required                         
-                             Default: ++44123456789                    
+                             string - Optional                         
+                             Default: ++44123456789  
 ```
 
 ## Update
