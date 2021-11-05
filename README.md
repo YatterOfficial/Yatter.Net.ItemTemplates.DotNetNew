@@ -20,7 +20,7 @@ Copyright © 2021
 
 or by version number, e.g:
 
-- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.3 ```
+- ```dotnet new --install Yatter.Net.ItemTemplates.DotNetNew::0.0.4```
 
 ## Usage
 
